@@ -49,7 +49,7 @@ let package = Package(
                 .product(name: "WebSocketKit", package: "websocket-kit"),
             ],
             path: "Sources",
-            sources: ["Core", "FoundationHTTP"]),
+            sources: ["Core", "FoundationHTTP", "Concurrency"]),
         .target(
             name: "Web3PromiseKit",
             dependencies: [
