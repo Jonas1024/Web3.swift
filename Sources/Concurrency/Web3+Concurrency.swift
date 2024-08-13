@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Web3
 
 public extension Web3 {
 
